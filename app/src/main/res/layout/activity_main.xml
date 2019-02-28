@@ -189,6 +189,7 @@
                     android:text="*" />
 
             </LinearLayout>
+            <!--iok-->
             <LinearLayout
                 android:orientation="horizontal"
                 android:id="@+id/banphim6"

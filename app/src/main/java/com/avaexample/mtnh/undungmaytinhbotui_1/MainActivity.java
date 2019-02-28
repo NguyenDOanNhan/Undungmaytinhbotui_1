@@ -177,6 +177,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             } else {
                                 result = result - arrNumber.get(i + 1);
                             }
+                        case "*":
+                            if (i == 0) {
+                                result = arrNumber.get(i) * arrNumber.get(i + 1);
+                            } else {
+                                result = result * arrNumber.get(i + 1);
+                            }
+                        case "/":
+                            if (i == 0) {
+                                result = arrNumber.get(i) / arrNumber.get(i + 1);
+                            } else {
+                                result = result / arrNumber.get(i + 1);
+                            }
 
                         default:
                             break;
